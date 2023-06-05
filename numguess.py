@@ -1,7 +1,7 @@
 import random
 def main():
     rand_num = random.randint(1, 100)
-    guess_num = int(input("Enter a number: "))
+    guess_num = int(input("Enter a number between 1 & 100: "))
 
     if guess_num == rand_num:
         outp = f"You guessed it right. The number is {rand_num}"
